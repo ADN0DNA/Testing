@@ -21,6 +21,7 @@ public class Ej20 {
 			}
 			System.out.println(cont);
 			
+			
 		}
 		
 	}
