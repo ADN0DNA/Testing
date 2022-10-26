@@ -9,6 +9,7 @@ public class Ej20 {
 		los números desde 1 hasta N, uno en cada línea, repitiendo cada número tantas veces como su
 		valor. 
 		*/
+		System.out.println("Dime un número: ");
 		int num;
 		int cont=1;
 		Scanner pin=new Scanner(System.in);

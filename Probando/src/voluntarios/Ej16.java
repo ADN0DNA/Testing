@@ -12,7 +12,7 @@ public class Ej16 {
 		Scanner pin=new Scanner(System.in);
 		num=pin.nextInt();
 		
-		if (num==2 ||num==3||num==5||num==7) {
+		if (num==2 ||num==3||num==5||num==7||num==11||num==13) {
 			System.out.println(num + "  es primo");
 		}
 		
@@ -30,6 +30,12 @@ public class Ej16 {
 		else if (num%7==0) {
 		System.out.println(num + " no es primo");
 		}
+		else if (num%11==0) {
+			System.out.println(num + " no es primo");
+			}
+		else if (num%13==0) {
+			System.out.println(num + " no es primo");
+			}
 		else {
 			System.out.println(num + " es primo");
 		}
